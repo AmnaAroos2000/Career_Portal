@@ -1,0 +1,5 @@
+1. Copy and paste university.sql queries into 'student_portal' database.
+
+
+2. All the images should be inside the folder 'banner'
+(The path for images given to the banner folder)

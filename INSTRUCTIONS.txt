@@ -2,4 +2,13 @@
 
 
 2. All the images should be inside the folder 'banner'
-(The path for images given to the banner folder)
+(The path for images is given to the banner folder)
+
+- index.php
+- search_results.php
+- diplay_results.php
+- navigation.php
+- uniConnect.php
+- uni_styles.css
+- university.sql
+- 14 images

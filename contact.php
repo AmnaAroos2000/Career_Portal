@@ -18,8 +18,8 @@
             <div class="nav">
                 <ul>
                     <li class="home-nav"><a href="home.php">Home</a></li>
-                    <li><a href="course.php">Courses</a></li>
-                    <li><a href="university.php">University</a></li>
+                    <li><a href="index_course.php">Courses</a></li>
+                    <li><a href="index_university.php">University</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
                     
                 </ul>

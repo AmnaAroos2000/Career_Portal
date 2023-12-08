@@ -73,6 +73,15 @@ li a:hover {
     top: 646px;
 }
 
+/* Bottom Image */
+
+#second-img {
+    position: absolute;
+    margin-top: 750px;
+    margin-left: -92%;
+    
+}
+
 
 
 /* Home About Us */
@@ -142,7 +151,8 @@ div.arrow1 {
     left: 77%;
     z-index: 1;
 }
-/* 2.9px 0.45 */
+
+
 div.arrow2 {
     height: 1.9px;
     width: 16px;
@@ -153,7 +163,7 @@ div.arrow2 {
     transform: rotate(25deg);
     z-index: 1;
 }
-/* 6.3 */
+
 div.arrow3 {
     height: 1.9px;
     width: 15.50px;
@@ -213,8 +223,8 @@ div.table-edit {
 
 input.input-title {
     position: relative;
-    top: 340px;
-    left: 17.6%;
+    top: 360px;
+    left: 17.5%;
     width: 35%;
     height: 30px;
     border-radius: 6px;
@@ -224,7 +234,7 @@ input.input-title {
 
 .input-comment {
     position: absolute;
-    top: 430px;
+    top: 450px;
     left: 17.9%;
     width: 40%;
     padding-top: 5px;
@@ -234,26 +244,43 @@ input.input-title {
     border: 1.5px solid #407AFE;
 }
 
+input.input-email {
+    position: absolute;
+    top: 345px;
+    left: 17.8%;
+    width: 34.5%;
+    height: 30px;
+    border-radius: 6px;
+    padding: 0 0 0 8px;
+    border: 1.5px solid #407AFE;
+}
 .title-label{
     position: absolute;
-    top: 380px;
+    top: 400px;
     left: 10.7%;
     font-size: 20px;
 }
 
 .message-label{
     position: absolute;
-    top: 450px;
+    top: 460px;
+    left: 10.7%;
+    font-size: 20px;
+}
+
+.email-label{
+    position: absolute;
+    top: 350px;
     left: 10.7%;
     font-size: 20px;
 }
 
 
 
-#button1 {
+#send-btn {
     position: absolute;
-    left: 47%;
-    top: 595px;
+    left: 47.5%;
+    top: 610px;
     padding: 11px 40px 11px 23px;
     color: white;
     font-size: 18px;
@@ -268,8 +295,8 @@ input.input-title {
     position: absolute;
     width: 14px;
     height: 15px;
-    left: 52.7%;
-    top: 612px;
+    left: 53.4%;
+    top: 625px;
 }
 
 

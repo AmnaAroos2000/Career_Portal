@@ -90,7 +90,7 @@ $res = mysqli_query($con,$query);
     <!-- Dropdown box for select stream -->
     <div id="stream-filter">
         <select name="fetchval" id="fetchval">  
-            <option value="Select Value" disabled="" selected="">Select Stream</option>
+            <option value="Select Value" disabled="" selected="">Select Course</option>
             <option value="Management">Management</option>
             <option value="Arts">Arts</option>
             <option value="Medicine">Medicine</option>

@@ -8,8 +8,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         die("cannot connect to database");
     }
     
-    $sql_insert_data = "INSERT INTO feedback(title, comment) 
-    VALUES('".$_POST['title']."', '".$_POST['comment']."')";
+    $sql_insert_data = "INSERT INTO feedback(email, title, comment) 
+    VALUES('".$_POST['email']."','".$_POST['title']."', '".$_POST['comment']."')";
 
     // echo $sql_insert_data;
 
@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
     else{
         echo " recorded successful ";
-        header('Location: contact.php');
+        // header('Location: contact.php');
         exit();
     }
   

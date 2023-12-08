@@ -6,24 +6,33 @@ include('database_connection.php');
 
 
 
-if (isset($_POST["action"])) {
+if (isset($_POST["action"])) { // Check if the AJAX action is set
+
+	// Initial query to select all courses with status '1'
 	$query = "
 		SELECT * FROM course WHERE course_status = '1'
 	";
 
-	if (isset($_POST["field"])) {
+	if (isset($_POST["field"])) { // Check if 'field' filter is set
+
+		// Filter courses based on selected fields
 		$field_filter = implode("','", $_POST["field"]);
 		$query .= "
 		 AND field_name IN('" . $field_filter . "')
 		";
 	}
 
-	if (isset($_POST["institute_name"])) {
+	if (isset($_POST["institute_name"])) { // Check if 'institute_name' filter is set
+
+		// Filter courses based on selected institute name
 		$category = $_POST["institute_name"];
 		$query .= "
 	   AND  institute_name like('" . $category . "')";
 	}
-	if (isset($_POST["query"])) {
+
+	if (isset($_POST["query"])) { // Check if 'query' for search is set
+
+		// Perform search based on institute name, or field name
 		$search = ($_POST["query"]);
 		$query = "
   SELECT * FROM course 
@@ -39,8 +48,8 @@ if (isset($_POST["action"])) {
 	$total_row = $statement->rowCount();
 	$output = '';
 	if ($total_row > 0) {
-		foreach ($result as $row) {
-			$output .= '
+		foreach ($result as $row) {  // out put style
+			$output .= ' 
 			<div class="container-fluid">
 			
   
@@ -82,9 +91,7 @@ if (isset($_POST["action"])) {
 			';
 		}
 	} else {
-		$output = '<h3>No Data Found</h3>';
+		$output = '<h3>No Data Found</h3>'; // Display a message if no data is found
 	}
 	echo $output;
 }
-
-?>

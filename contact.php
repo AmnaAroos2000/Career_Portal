@@ -46,14 +46,15 @@
 
         <!-- Feedback Form  -->
 
-
         <form action="contact_form.php" method="POST">
+            <Label class="email-label">Email: </Label>
+            <input type="text" name="email" placeholder="abc@gmail.com " class="input-email" required>
             <Label class="title-label">Title: </Label>
-            <input type="text" name="title" placeholder="Message Title" class="input-title" >
+            <input type="text" name="title" placeholder="Message Title" class="input-title" required>
             <label class="message-label">Message: </label>
-            <textarea cols="50" rows="2" class="input-comment" name="comment"> </textarea>
+            <textarea cols="50" rows="2" class="input-comment" name="comment" required> </textarea>
             <br><br><br>
-            <button type="submit" name="send" id="button1" value="Send"> Send </button>
+            <button type="submit" name="send" id="send-btn" value="Send"> Send </button>
 
         </form>
 
@@ -72,15 +73,6 @@
             
 
         <p style="margin-top: 700px;"></p>
-
-
-  
-
-
- 
-
-
-        
 
 
 

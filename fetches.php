@@ -1,5 +1,7 @@
 <?php 
     
+    // Connect Database with project
+    
     $sname = "localhost";
     $uname = "root";
     $pass = "";
@@ -22,13 +24,13 @@
     
 ?>
 
+<!-- Fetch Data onto the table from database -->
     <table class="table">
 
         <?php
         if($count){
 
         ?>
-        
 
         <thead>
         <tr>

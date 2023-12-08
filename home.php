@@ -88,7 +88,7 @@
             </defs>
         </svg>
             
-        <!-- <img src="//s3-alpha-sig.figma.com/img/1808/efe9/e02d03550213f7a51dbd8a1c9acfe436?Expires=1674432000&Signature=jNbLb6WWH8b5tC~ihZMJKtaMQPDp54H7~ueUQUBpsUbeibA545Z6BB1duCV97YSoh1hyTa~utKYU4URVKR72i0VaJySIFt0HCUh31xbvYSwuVF3ivZ3~CL5Pw8ZkXm9LQxrqoKlzLwDKDg~EP~yr2KfywvEG40yI9aFhWo2Olk4i1v7Fy6WWlxkEA5b1v5fesKI~MulDE2~a5GqW2crT1IsmLxMhaQlyvzsdJlS7ClVr2Su7wz2ddYBJJpT83NrIPoKN72qfeJPPfZw~3~GAOeBk0ftFT4mV7cDwXZwCGedpS1F1oqq4WzMh4-iICUTsI8Wgh6ERnZ6VCM70FGBG0g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" class="theme4" /> -->
+      <img src="Rect.png" alt="Error Occured" width="50%" height="500px" id="second-img">
 
         
 
